@@ -1,0 +1,37 @@
+
+.layout {
+    width: 100vw;
+    height: 150px;
+    background-color: rgba(255, 255, 255, .5);
+    position: sticky;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav div {
+   background-color: red;
+   padding: 10px;
+   margin-right: 40px;
+}
+
+nav div img {
+    width: 110px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    list-style: none;
+    height: 110px;
+}
+
+nav ul li {
+    margin-right: 100px;
+}
