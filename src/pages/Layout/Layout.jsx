@@ -5,9 +5,9 @@ export default function Layout() {
     return(
         <div className="layout">
             <nav>
-                <div>
+                <div className="nav-bar">
                     <Link to="/">
-                        <img src="./images/logo.svg" />
+                        <img className="nav-img" src="./images/logo.svg" alt=""/>
                     </Link>
                 </div>
                 <ul>
